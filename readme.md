@@ -9,3 +9,5 @@
 Detailed tutorial on how to administer this app and configure your frontend code [can be found here](https://prahladyeri.github.io/blog/2024/06/intoducing-comment-monk.html).
 
 ![cm-dashboard](https://prahladyeri.github.io/uploads/cm/cm-dashboard.png)
+
+![cm-client](https://prahladyeri.github.io/uploads/cm/cm-client.png)
