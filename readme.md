@@ -1,5 +1,5 @@
-![license](https://img.shields.io/github/license/prahladyeri/minimal-mvc.svg)
-![last-commit](https://img.shields.io/github/last-commit/prahladyeri/minimal-mvc.svg)
+![license](https://img.shields.io/github/license/prahladyeri/comment-monk.svg)
+![last-commit](https://img.shields.io/github/last-commit/prahladyeri/comment-monk.svg)
 [![patreon](https://img.shields.io/badge/Patreon-brown.svg?logo=patreon)](https://www.patreon.com/prahladyeri)
 [![paypal](https://img.shields.io/badge/PayPal-blue.svg?logo=paypal)](https://paypal.me/prahladyeri)
 [![follow](https://img.shields.io/twitter/follow/prahladyeri.svg?style=social)](https://twitter.com/prahladyeri)
