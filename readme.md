@@ -2,4 +2,4 @@ Comment-Monk is a very simple comment hosting system for static blogs and sites 
 
 Detailed tutorial on how to administer this app and configure your frontend code [can be found here](https://prahladyeri.github.io/blog/2024/06/intoducing-comment-monk.html).
 
-![cm-dashboard](/uploads/cm/cm-dashboard.png)
+![cm-dashboard](https://prahladyeri.github.io/uploads/cm/cm-dashboard.png)
