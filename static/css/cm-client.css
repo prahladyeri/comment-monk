@@ -1,0 +1,84 @@
+/**
+* cm-client.css
+*
+* Front-end stylesheet for comment-monk
+* @author Prahlad Yeri <prahladyeri@yahoo.com>
+* @license GPL v3
+*/
+
+div.comment-box-init {
+	display: none;
+}
+div.comment-box {
+	max-width: 500px;
+	min-height: 100px;
+	/* background-color: lightgrey; */
+	padding: 4px px 4px 2px;
+	border: 1px solid darkgrey;
+	margin: 0 auto;
+	font-size: 18px;
+}
+div.comment-box p {margin: 0px;}
+div.comment-box .header {
+	overflow: auto; padding: 4px 4px; 
+	background-color: gainsboro;
+	color: #000;
+	}
+div.comment-box .cm-author {float: left;}
+div.comment-box .cm-created_at {float: right;}
+div.comment-box .cm-message {
+	border-top: 1px solid darkgrey;
+	padding: 4px 4px;
+	}
+
+.text-muted {color: #6c757d!important;}
+.cm-submit-comment {
+	max-width: 600px;
+	/* background-color: green; */
+	margin: 0 auto;
+	
+}
+.cm-submit-comment,
+.cm-submit-comment input,
+.cm-submit-comment button,
+.cm-submit-comment a
+{
+	font-family: "segoe ui";
+	font-size: 16px;
+}
+
+.cm-submit-comment .heading {
+	font-size: 20px;
+}
+
+.cm-comment-form input,
+.cm-comment-form textarea
+ {
+	width: 100%;
+	font-size: 18px;
+	padding: 4px 4px;
+} 
+
+.cm-comment-form textarea {
+	resize: none;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	background-color: #f8f8f8;
+}
+.cm-comment-form .submit-button[disabled] {
+	background-color: grey;
+}
+.cm-comment-form .submit-button {
+	background-color: #04AA6D;
+	font-size: 18px;
+	  border: none;
+	  color: white;
+	  padding: 10px 28px;
+	  text-decoration: none;
+	  margin: 4px 2px;
+	  cursor: pointer;	
+}
+.cm-comment-form .cm-alert {
+	color: red;
+	/* font-weight: bold; */
+}

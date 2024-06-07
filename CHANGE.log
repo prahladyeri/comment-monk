@@ -1,0 +1,17 @@
+VERSION 1.1 (upcoming)
+===========
+- feat: Mark comments as spam/unapproved.
+- feat: Disable commenting mode.
+- feat: Download comments.
+- feat: Email support.
+- feat: CAPTCHA support.
+- feat: Formatted 404 pages.
+- feat: Scrolling.
+- feat: Add gravatar images to comments based on user emails.
+
+VERSION 1.0
+===========
+* fix: Minimum length on submit comment.
+* feat: Install the system and create admin user.
+* feat: Bind the system to a static site by copying the code-snippet.
+* feat: Manage incoming comments through the dashboard.
