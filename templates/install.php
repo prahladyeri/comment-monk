@@ -5,7 +5,7 @@
 * Install template
 * 
 * @author Prahlad Yeri <prahladyeri@yahoo.com>
-* @license GPL v3
+* @license GNU General Public License, version 3
 */
 ?>
 <div class='row mt-2'>

@@ -3,7 +3,7 @@
 *
 * Front-end code for comment-monk
 * @author Prahlad Yeri <prahladyeri@yahoo.com>
-* @license GPL v3
+* @license GNU General Public License, version 3
 */
 
 // Make sure to place cm-front.js in the base_url

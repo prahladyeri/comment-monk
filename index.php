@@ -3,7 +3,7 @@
 * index.php
 * 
 * @author Prahlad Yeri <prahladyeri@yahoo.com>
-* @license GPL v3
+* @license GNU General Public License, version 3
 */
 header('Access-Control-Allow-Origin: *');
 header("Access-Control-Allow-Methods: GET, POST");
