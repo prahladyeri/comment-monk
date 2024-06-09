@@ -8,7 +8,6 @@
 * @license GPL v3
 */
 
-//@todo: remove this from .gitignore temporarily and push empty vals to github
 $config = [];
 
 //smtp email
