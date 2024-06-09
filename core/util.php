@@ -5,7 +5,7 @@
 * Common Utilities
 * 
 * @author Prahlad Yeri <prahladyeri@yahoo.com>
-* @license GNU General Public License, version 3
+* @license LGPL v2.1
 */
 
 /* MISC UTILITIES */

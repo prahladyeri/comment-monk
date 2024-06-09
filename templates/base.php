@@ -5,7 +5,7 @@
 * Base template
 * 
 * @author Prahlad Yeri <prahladyeri@yahoo.com>
-* @license GNU General Public License, version 3
+* @license GPL v3
 */
 ?>
 <!DOCTYPE html>
@@ -16,7 +16,7 @@
 	<link rel="icon" type="image/x-icon" href="<?=base_url()?>favicon.png">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli">
 	<link rel="stylesheet" href="<?=base_url()?>static/css/app.css?v=1">
 	<title><?=$module?> - <?=APP_NAME?></title>
 </head>

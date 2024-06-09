@@ -5,8 +5,10 @@
 * Routing capabilities
 * 
 * @author Prahlad Yeri <prahladyeri@yahoo.com>
-* @license GNU General Public License, version 3
+* @license LGPL v2.1
 */
+
+const MMVC_VER = "1.0";
 
 function site_url($uri = "") {
 	$idx = (Router::$index_file==''?'':Router::$index_file.'/');
@@ -34,6 +36,9 @@ class Router {
 	
 	public static function post($route, $action) {
 		self::addRoute('POST', $route, $action);
+	}
+	public static function put($route, $action) {
+		self::addRoute('PUT', $route, $action);
 	}
 	
 	public static function dispatch() {

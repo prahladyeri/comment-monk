@@ -5,7 +5,7 @@
 * App Configuration
 *
 * @author Prahlad Yeri <prahladyeri@yahoo.com>
-* @license GNU General Public License, version 3
+* @license GPL v3
 */
 
 //@todo: remove this from .gitignore temporarily and push empty vals to github

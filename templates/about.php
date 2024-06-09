@@ -11,7 +11,8 @@
 <div role='tabpanel' id='aboutApp' class='mt-4 tab-pane active' >
 BUILD VERSION: <?= VERSION ?><br>
 Timezone: <?= date_default_timezone_get(); ?><br><br>
-<b><?=APP_NAME ?> is built on top of following open source technologies:</b>
+<strong><?=APP_NAME ?> is built on top of following open source technologies:</strong>
+<br><br>
 <ul>
 <li> <a href="https://github.com/twbs/bootstrap">Bootstrap version 4.6.2</a></li>
 <li> <a href="https://github.com/jquery/jquery">jquery version 3.7.1</a></li>
@@ -19,6 +20,7 @@ Timezone: <?= date_default_timezone_get(); ?><br><br>
 <li> <a href="https://fonts.google.com/about">Google Fonts</a></li>
 
 </ul>
+MMVC VERSION: <?=MMVC_VER?><br>
 PHP VERSION: <?= phpversion(); ?><br>
 SQLITE VERSION: <?=$sqlite_ver?><br>
 </div>

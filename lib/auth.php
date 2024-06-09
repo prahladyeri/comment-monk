@@ -5,7 +5,7 @@
 * Authentication functions
 * 
 * @author Prahlad Yeri <prahladyeri@yahoo.com>
-* @license GNU General Public License, version 3
+* @license GPL v3
 */
 
 function get_user() {
