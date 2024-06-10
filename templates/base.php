@@ -44,6 +44,9 @@
 		<div class="navbar-nav">
 	<a class="nav-link" href="<?=base_url()?>about">About</a>  
 	</div>
+	<div class="navbar-nav">
+	<a class="nav-link" href="<?=GH_REPO?>">Github</a>  
+	</div>
 
 	
 <?php if (get_user()):?>
@@ -67,7 +70,7 @@
 	<a class="nav-link" href="<?=base_url()?>auth/login">Login</a>  
 	</div>
 <?php endif;?>
-	
+
 	</div> 
 </nav>
 <div class='container mt-1'>
@@ -96,9 +99,10 @@
 <footer class="footer bg-dark">
   <div class="text-monospace pl-4 pr-4">
 	<span class="text-muted text-left">
-	Copyright (c) 2024 <a href='https://prahladyeri.github.io'>Prahlad Yeri</a>. This software is open source and licensed under <a href='https://www.gnu.org/licenses/gpl-3.0.en.html'>GNU GPL v3</a>.</span>
+	Copyright (c) 2024 <a href='https://prahladyeri.github.io'>Prahlad Yeri</a>. <?= APP_NAME?> is <a href='<?=GH_REPO?>'>open source software</a>.</span>
 	  <span class='float-right text-light'>
-		Version: <?=VERSION?>
+		Version: <?=VERSION?>&nbsp;
+		<a href='<?=GH_REPO?>'><i class='fa-lg fa fa-github'></i></a>
 	  </span>
   </div>
 </footer>

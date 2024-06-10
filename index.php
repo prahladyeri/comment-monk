@@ -24,6 +24,7 @@ session_start();
 
 const VERSION = "1.0";
 const APP_NAME = "Comment Monk";
+const GH_REPO = "https://github.com/prahladyeri/comment-monk";
 
 //@todo: initialize database
 $dbh = new PDO("sqlite:cm.db");
@@ -224,6 +225,12 @@ Router::post("/pref", function() use ($dbh) {
 
 Router::get("/about", function() use($dbh) {
 	$vars = default_vars("About");
+	$vars['deps'] = array (
+		["Bootstrap", "4.6.2", "https://github.com/twbs/bootstrap"],
+		["jquery", "3.7.1", "https://github.com/jquery/jquery"],
+		["fontawesome", "4.7.0", "http://fontawesome.io/icons/"],
+		["google-fonts", "-", "https://fonts.google.com/about"],
+	);
 	$vars['sqlite_ver'] = $dbh->query('select sqlite_version()')->fetch()[0];
 	load_template("templates/about.php", $vars);
 });
