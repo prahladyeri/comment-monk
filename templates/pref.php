@@ -5,7 +5,7 @@
 * Pref template
 * 
 * @author Prahlad Yeri <prahladyeri@yahoo.com>
-* @license GPL v3
+* @license MIT
 */
 ?>
 

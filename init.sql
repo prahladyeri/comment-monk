@@ -3,7 +3,7 @@
 -- database initialization routines
 --
 -- @author Prahlad Yeri <prahladyeri@yahoo.com>
--- @license GPL v3
+-- @license MIT
 
 drop table if exists comments;
 drop table if exists posts;
